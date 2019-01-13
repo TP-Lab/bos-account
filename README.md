@@ -1,10 +1,10 @@
 # bos-account
 
-在bos-testnet上部署了创建账号合约signupeoseos
+在bos-testnet上部署了创建账号合约signupbosbos
 
 + 合约创建账号过程：
 
-    通过eosio.token 的transfer动作向signupeoseos转账“2 BOS”，
+    通过eosio.token 的transfer动作向signupbosbos转账“2 BOS”，
     
     其中“0.1 BOS”用户购买CPU，“0.1 BOS”用于购买NET，其余代币用于买ram.
     
@@ -27,6 +27,6 @@
   
   publick key: EOS76VqrCpuK5dKsGfGP9aPuxpRTAoJcPMfEknVy47n6xkh6zNRrh
   
-  `cleos push action eosio.token transfer '["bosboseoseos","signupeoseos","2 BOS", "boscreator11-EOS76VqrCpuK5dKsGfGP9aPuxpRTAoJcPMfEknVy47n6xkh6zNRrh"]' -p bosboseoseos`
+  `cleos push action eosio.token transfer '["bosboseoseos","signupbosbos","2。0000 BOS", "boscreator11-EOS76VqrCpuK5dKsGfGP9aPuxpRTAoJcPMfEknVy47n6xkh6zNRrh"]' -p bosboseoseos`
 
 
