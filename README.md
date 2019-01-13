@@ -16,6 +16,7 @@
 + 合约创建账号
 
   eosio.token的transfer, memo: account + public key
+  
   `cleos push action signupeoseos transfer '["bosboseoseos","signupeoseos","2 BOS", "boscreator11-    EOS76VqrCpuK5dKsGfGP9aPuxpRTAoJcPMfEknVy47n6xkh6zNRrh"]'`
 
 
